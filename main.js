@@ -3,7 +3,7 @@ const input = document.querySelector(".top-banner input");
 const msg = document.querySelector(".top-banner .msg");
 const list = document.querySelector(".ajax-section .cities");
 
-const apiKey = "0d829c2ce3b8264e252e6d0661d23ed7";
+const apiKey = "YOUR_API_KEY";
 
 let itemsArray = localStorage.getItem("weather")
   ? JSON.parse(localStorage.getItem("weather"))
